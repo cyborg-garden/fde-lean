@@ -64,7 +64,7 @@ make possible is pinning the exact prover:
 - **Model / checkpoint:** `moonshotai/kimi-k3` (open weights), via OpenRouter. The weights
   are downloadable, so this exact prover can be re-run; a frontier closed model cannot be
   pinned this way (no checkpoint to fetch).
-- **Harness:** Hermes Agent (Nous Research), `github.com/NimbleCoAI/Matilde`, running the
+- **Harness:** Hermes Agent (Nous Research), `github.com/cyborg-garden/Matilde`, running the
   `lean4-formalization` skill.
 - **Build pin:** toolchain `leanprover/lean4:nightly-2026-07-14`; mathlib `f566658afd`
   (nightly-testing); platform aarch64-linux. Both pinned in `lean-toolchain` and
